@@ -1,0 +1,38 @@
+<div class="contact-form">
+  <h2>Soumettre une phrase à traduire</h2>
+  <p>Ne vous inquiétez pas si vous ne voyez pas la traduction tout de suite. Je ne suis pas un magicien, je ne peux pas traduire les choses automatiquement. Le site sera mis à jour chaque semaine, alors en attendant, apprenez les autres phrases de la page.</p>
+  <%= simple_form_for @contact do |f| %>
+    <% if flash[:error].present? %>
+      <p> Please correctly complete the fields below</p>
+    <% end %>
+    <div class="form-row">
+      <div class="col">
+        <%= f.input :guestonefirstname, label:"First Name", error: 'Name is mandatory, please specify one', required: true, class:"form-control"%> <br>
+        <%= f.input :guestonefirstname, label:"Surname", error: 'Name is mandatory, please specify one', required: true, class:"form-control"%> <br>
+      </div>
+      <div class="col">
+        <%= f.input :guesttwofirstname, label:"First Name", error: 'Name is mandatory, please specify one', required: true, class:"form-control"%> <br>
+        <%= f.input :guesttwofirstname, label:"Surname", error: 'Name is mandatory, please specify one', required: true, class:"form-control"%> <br>
+      </div>
+    </div>
+      <div class="form-row">
+        <div class="col">
+          <%= f.input :children, label:'Number of Children', required: true, class:"form-control"%> <br>
+        </div>
+      </div>
+    <div class="form-row">
+      <div class="col">
+      </div>
+    </div>
+    <div class="form-text">
+      <%= f.label 'Dietary Restrictions', required: true %>
+      <%= f.text_area(:message, rows: 3, class:"form-control")%> <br>
+    </div>
+    <div class="send-button">
+    <%= button_tag(type: 'submit', class: "suggest-btn-send") do %>
+      <p>RSVP</p>
+    <% end %>
+    </div>
+  <% end %>
+</div>
+
