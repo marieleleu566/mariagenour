@@ -30,4 +30,46 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  global:
+    menu:
+      events: "EVENTS"
+      rsvp: "RSVP"
+      practical: "USEFUL INFO"
+      day: "THE DAY OF"
+      list: "REGISTRY"
+    wedding:
+      marriage: "Nour & Nicolas"
+      date: "16th 17th of July 2022"
+    info:
+      address: "Château des Roches, 86380 - Saint-Martin-La-Pallu"
+      date: "Saturday, 16th of July 2022"
+      date1: "Sunday, 17th of July 2022"
+      ceremony: "Non-Religious Ceremony"
+      cocktail: "Cocktail / Apéro"
+      dance: "Dinner & Dancing"
+      five: "5PM"
+      six: "6PM"
+      eight: "8PM"
+      twelve: "12PM"
+      brunch: "Brunch"
+      dress: "Dress Code: Casual"
+    events:
+      header: "All events will take place at Château des Roches."
+      direction: "How to get to Saint-Martin-La-Pallu?"
+      car: "By Car"
+      train: "By Train"
+      car1: "Follow directions to Chateau des Roches, Saint-Martin-La-Pallu 86380"
+      train1: "1h 20 from Paris Montparnasse to Poitiers."
+      taxi: "There are very few local taxis. We recommend that you rent a car or call taxis well in advance of needing them."
+      stay: "Where to stay?"
+      hotel: "Hotels in the area"
+      Recommend: "Recommended:"
+      hotel1: "Château du Clos de la Ribaudière"
+      hotel2: "Mercure Poitiers, site du Futuroscope"
+      hotel3: "Ibis, site du Futuroscope"
+    theday:
+      parking: "Parking will be provided."
+      taxi_html: "Taxi services in Poitiers include:<br> Radio Taxis +33 5 49 88 12 34<br>Taxi Grand Poitiers +33 6 03 61 25 85"
+      home_html: "To make sure all guests get home safely, we will provide late night van services to the closest hotels. <br><br> If you have come by car, you can pick it up on Sunday after the brunch."
+      venue: "How to get to the venue?"
+      wedding: "The Wedding Day"
