@@ -21,7 +21,8 @@ fr:
       eight: "20h"
       twelve: "Midi"
       brunch: "Brunch à partir de midi"
-      dress: "Dress Code: Tenue de soirée. Pas de cravate!"
+      code: "Dress Code: Tenue de soirée. Pas de cravate!"
+      dress: "Dress Code: Casual"
     events:
       header: "Tous les événements auront lieu au Château des Roches."
       direction: "Comment se rendre à Saint-Martin-La-Pallu ?"

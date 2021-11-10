@@ -39,7 +39,7 @@ en:
       list: "REGISTRY"
     wedding:
       marriage: "Nour & Nicolas"
-      date: "16th 17th of July 2022"
+      date: "16th & 17th of July 2022"
     info:
       address: "Château des Roches, 86380 - Saint-Martin-La-Pallu"
       date: "Saturday, 16th of July 2022"
@@ -52,6 +52,7 @@ en:
       eight: "8PM"
       twelve: "12PM"
       brunch: "Brunch"
+      code: "Dress Code: Cocktail / Suits (no ties!)"
       dress: "Dress Code: Casual"
     events:
       header: "All events will take place at Château des Roches."

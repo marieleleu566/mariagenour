@@ -7,10 +7,11 @@ class ContactsController < ApplicationController
     @contact = Contact.new(params[:contact])
     @contact.request = request
     if @contact.deliver
-      redirect_to root_path, notice: 'Message sent successfully'
+      redirect_to root_path, notice: "RSVP'd Sucessfully"
     else
-      flash.now[:error] = 'Cannot send message'
+      flash.now[:error] = 'RSVP not taken into account'
       render :new
     end
   end
 end
+

@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-
   scope "(:locale)", locale: /en|fr/ do
     root to: 'pages#home'
     get 'events', to: 'pages#events'

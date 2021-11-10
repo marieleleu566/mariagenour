@@ -1,1 +1,129 @@
 // Specific CSS for your home-page
+.grid {
+  display: flex;
+  flex-direction: column;
+  @include from-medium-low {
+    flex-direction: row;
+  }
+}
+
+.form {
+    width: 100%;
+   @include from-medium-low {
+    width: 60%;
+  }
+}
+
+body {
+  font-family: 'Futura';
+  font-style: normal;
+  background-color: white;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center;
+}
+
+.border {
+  margin: 0 30px;
+  padding: 30px 60px;
+  border: 2px solid black !important;
+  @include from-medium-low {
+    margin: 0 80px;
+  }
+}
+
+.photo {
+  width: 100%;
+  p {
+    text-align: center;
+    font-size: 50px;
+  }
+  img {
+    width:100%;
+  }
+  .olive {
+    height: 496px;
+    border-bottom: 2px solid black;
+  }
+  .olivetree {
+    margin-right: 0px;
+    @include from-medium-low {
+      margin-right: 60px;
+    }
+  }
+  @include from-medium-low {
+    width: 40%
+  }
+}
+
+.text {
+  h1, h4 {
+  font-family: 'Futura';
+  }
+  h1 {
+    font-size: 70px;
+    border-bottom: 1px solid black;
+  }
+  h4 {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+}
+
+.homepage {
+  border-bottom: 1px solid black;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  width: 100%;
+  p:first-of-type {
+  margin-right: 0px;
+  }
+  @include from-medium {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    font-size: 20px;
+    width: 350px;
+    p:first-of-type {
+    margin-right: 60px;
+    }
+  }
+}
+
+.time {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 15px 0px;
+}
+
+.adresse, .dress {
+  font-size: 20px !important;
+}
+
+.dress {
+  margin-top: 10px;
+}
+
+.dress2 {
+  margin-right: 120px;
+}
+
+

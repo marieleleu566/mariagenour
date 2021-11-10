@@ -14,3 +14,13 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+
+@font-face {
+   font-family: 'Futura';
+   src: font-url('Futura');
+}
+
+@font-face {
+   font-family: 'FuturaLight';
+   src: font-url('FuturaLight.otf');
+}
