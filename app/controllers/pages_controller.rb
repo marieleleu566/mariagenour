@@ -13,7 +13,4 @@ class PagesController < ApplicationController
 
   def listemariage
   end
-
-  def rsvp
-  end
 end

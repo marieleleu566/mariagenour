@@ -28,6 +28,7 @@ fr:
       direction: "Comment se rendre à Saint-Martin-La-Pallu ?"
       car: "En Voiture"
       train: "Par Train"
+      taxi1: 'Par Taxi'
       car1: "Suivre la direction Château des Roches, Saint-Martin-La-Pallu 86380"
       train1: "1h 20 de Paris Montparnasse à Poitiers."
       taxi: "Il y a très peu de taxis locaux. Nous vous recommandons de louer une voiture ou d'appeler des taxis bien avant d'en avoir besoin."

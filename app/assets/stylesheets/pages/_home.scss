@@ -43,6 +43,16 @@ body {
     text-align: center;
     font-size: 50px;
   }
+  h4 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Futura';
+  }
   img {
     width:100%;
   }
@@ -101,17 +111,44 @@ body {
     justify-content: left;
     flex-direction: row;
     font-size: 20px;
-    width: 350px;
+    width: 550px;
     p:first-of-type {
     margin-right: 60px;
     }
   }
 }
 
+.send-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suggest-btn-send {
+    color: white;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 5px;
+    p {
+      margin-bottom: 0px;
+    }
+    &:hover {
+      opacity: .8;
+    }
+}
+
 .time {
   font-size: 30px;
   font-weight: 500;
   margin: 15px 0px;
+}
+
+.train {
+  width: 400px;
+}
+
+.train1 {
+  margin-left: 9px;
 }
 
 .adresse, .dress {
