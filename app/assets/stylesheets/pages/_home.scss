@@ -29,6 +29,7 @@ body {
 }
 
 .border {
+  min-height: 600px;
   margin: 0 30px;
   padding: 30px 60px;
   border: 2px solid black !important;
@@ -57,7 +58,7 @@ body {
     width:100%;
   }
   .olive {
-    height: 496px;
+    height: 510px;
     border-bottom: 2px solid black;
   }
   .olivetree {
@@ -101,7 +102,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
+  font-size: 18px;
   width: 100%;
   p:first-of-type {
   margin-right: 0px;
@@ -110,8 +111,8 @@ body {
     display: flex;
     justify-content: left;
     flex-direction: row;
-    font-size: 20px;
-    width: 550px;
+    font-size: 18px;
+    width: 450px;
     p:first-of-type {
     margin-right: 60px;
     }
@@ -129,6 +130,7 @@ body {
     background-color: black;
     padding: 10px 30px;
     border-radius: 5px;
+    border: none;
     p {
       margin-bottom: 0px;
     }
@@ -144,15 +146,22 @@ body {
 }
 
 .train {
-  width: 400px;
+  width: 300px;
+  @include from-medium-low {
+     width: 400px;
+  }
 }
 
 .train1 {
   margin-left: 9px;
 }
 
-.adresse, .dress {
-  font-size: 20px !important;
+.adresse {
+  font-size: 20px;
+}
+
+.dress {
+  font-size: 18px !important;
 }
 
 .dress {

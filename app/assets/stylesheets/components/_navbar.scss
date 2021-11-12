@@ -7,8 +7,11 @@
   font-style: normal;
   a {
     color: black !important;
-    font-size: 30px;
+    font-size: 20px;
     margin: 30px;
+    @include from-medium-low {
+      font-size: 30px;
+    }
   }
   a:hover {
     text-decoration: underline;
@@ -20,6 +23,10 @@
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
+  background-color: white;
+  @include from-medium {
+    background-color: transparent;
+  }
 }
 
 .navbar-lewagon .navbar-brand img {
