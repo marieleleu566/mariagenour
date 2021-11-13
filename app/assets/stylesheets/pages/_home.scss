@@ -29,7 +29,7 @@ body {
 }
 
 .border {
-  min-height: 600px;
+  min-height: 500px;
   margin: 0 30px;
   padding: 30px 60px;
   border: 2px solid black !important;
@@ -77,12 +77,12 @@ body {
   font-family: 'Futura';
   }
   h1 {
-    font-size: 70px;
+    font-size: 60px;
     border-bottom: 1px solid black;
   }
   h4 {
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
@@ -111,7 +111,7 @@ body {
     display: flex;
     justify-content: left;
     flex-direction: row;
-    font-size: 18px;
+    font-size: 16px;
     width: 450px;
     p:first-of-type {
     margin-right: 60px;
@@ -157,11 +157,11 @@ body {
 }
 
 .adresse {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .dress {
-  font-size: 18px !important;
+  font-size: 16px !important;
 }
 
 .dress {
@@ -172,4 +172,7 @@ body {
   margin-right: 120px;
 }
 
-
+.guest {
+  margin-top: 15px;
+  border-bottom: 1px solid;
+}

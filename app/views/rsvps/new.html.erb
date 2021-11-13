@@ -1,0 +1,44 @@
+<div class="grid">
+  <div class="photo">
+   <%= image_tag 'caste.jpg' %>
+  </div>
+  <div class="form">
+    <div class="border">
+      <%= simple_form_for @rsvp do |f| %>
+        <% if flash[:error].present? %>
+          <p> Please correctly complete the fields below</p>
+        <% end %>
+        <div class="form-row">
+          <div class="col">
+            <p>Guest 1:</p>
+            <%= f.input :guestonefirst, label:"First Name", error: 'Name is mandatory, please specify one', class:"form-control"%> <br>
+            <%= f.input :guestonelast, label:"Surname", error: 'Name is mandatory, please specify one', class:"form-control"%> <br>
+          </div>
+          <div class="col">
+            <p>Guest 2:</p>
+            <%= f.input :guesttwofirst, label:"First Name", error: 'Name is mandatory, please specify one', class:"form-control"%> <br>
+            <%= f.input :guesttwolast, label:"Surname", error: 'Name is mandatory, please specify one', class:"form-control"%> <br>
+          </div>
+        </div>
+          <div class="form-row">
+            <div class="col">
+              <%= f.input :children, label:'Number of Children', class:"form-control"%> <br>
+            </div>
+            <div class="col">
+              <%# f.input :attending, as: :check_boxes, collection: ['16th of July: Ceremony and Party', '17th of July: Brunch'], label:'Events you will be attending:' %>
+                <%= f.input :attending, collection: Rsvp::CATEGORIES, label:'Events you will be attending:'%>
+            </div>
+          </div>
+        <div class="form-text">
+          <%= f.label 'Dietary Restrictions' %>
+          <%= f.text_area(:restrictions, rows: 2, class:"form-control")%> <br>
+        </div>
+        <div class="send-button">
+        <%= button_tag(type: 'submit', class: "suggest-btn-send") do %>
+          <p>RSVP</p>
+        <% end %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

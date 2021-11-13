@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="rsvp">
+    <% @rsvps.each do |rsvp| %>
+    <div class="guest">
+      <p><b>Guest One:</b><br><%= rsvp.guestonefirst %> <%= rsvp.guestonelast %></p>
+      <p><b>Guest Two:</b><br><%= rsvp.guesttwofirst %> <%= rsvp.guesttwolast %></p>
+      <p><b>Number of Children:</b><br> <%= rsvp.children %></p>
+      <p><b>Attending:</b><br> <%= rsvp.attending %> </p>
+      <p><b>Dietary Restricions:</b><br><%= rsvp.restrictions %></p>
+    </div>
+    <% end %>
+  </div>
+</div>

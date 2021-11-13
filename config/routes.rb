@@ -6,6 +6,7 @@ Rails.application.routes.draw do
     get 'lejourj', to: 'pages#lejourj'
     get 'listemariage', to: 'pages#listemariage'
     # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
-    resources :contacts, only: [:new, :create], :path => 'rsvp'
+    # resources :contacts, only: [:new, :create, :show], :path => 'rsvp'
+    resources :rsvps, only: [:index, :show, :new, :create]
   end
 end

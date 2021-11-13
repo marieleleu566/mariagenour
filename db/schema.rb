@@ -10,9 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 2021_11_13_141711) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "rsvps", force: :cascade do |t|
+    t.string "guestonefirst"
+    t.string "guestonelast"
+    t.string "guesttwofirst"
+    t.string "guesttwolast"
+    t.string "children"
+    t.string "restrictions"
+    t.string "attending"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
 end
