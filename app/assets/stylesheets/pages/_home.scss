@@ -29,7 +29,7 @@ body {
 }
 
 .border {
-  min-height: 500px;
+  min-height: 575px;
   margin: 0 30px;
   padding: 30px 60px;
   border: 2px solid black !important;
@@ -58,7 +58,7 @@ body {
     width:100%;
   }
   .olive {
-    height: 510px;
+    height: 486px;
     border-bottom: 2px solid black;
   }
   .olivetree {
@@ -70,6 +70,10 @@ body {
   @include from-medium-low {
     width: 40%
   }
+}
+
+.home {
+  margin-top: 100px !important;
 }
 
 .text {
@@ -100,22 +104,17 @@ body {
 .event {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   font-size: 18px;
   width: 100%;
   p:first-of-type {
-  margin-right: 0px;
+  width: 200px;
   }
   @include from-medium {
     display: flex;
-    justify-content: left;
     flex-direction: row;
     font-size: 16px;
-    width: 450px;
-    p:first-of-type {
-    margin-right: 60px;
-    }
   }
 }
 
@@ -140,21 +139,15 @@ body {
 }
 
 .time {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
   margin: 15px 0px;
 }
 
-.train {
-  width: 300px;
-  @include from-medium-low {
-     width: 400px;
-  }
+label {
+  font-size: 12px;
 }
 
-.train1 {
-  margin-left: 9px;
-}
 
 .adresse {
   font-size: 18px;
