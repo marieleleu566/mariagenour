@@ -58,7 +58,7 @@ body {
   }
   img {
     width:100%;
-    object-fit: cover;
+    object-fit: contain;
   }
   .olive {
     height: 484px;
@@ -181,4 +181,12 @@ label {
 .guest {
   margin-top: 15px;
   border-bottom: 1px solid;
+}
+
+.center {
+  margin: 100px;
+  text-align: center;
+  h2 {
+  font-family: 'Futura';
+  }
 }

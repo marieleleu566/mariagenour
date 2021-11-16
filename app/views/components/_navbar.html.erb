@@ -16,10 +16,10 @@
         <%= link_to t('global.menu.practical'), "/infospratique", class: "nav-link" %>
       </li>
       <li class="nav-item">
-        <%= link_to t('global.menu.list'), "/listemariage", class: "nav-link" %>
+        <%= link_to t('global.menu.day'), "/lejourj", class: "nav-link" %>
       </li>
       <li class="nav-item">
-        <%= link_to t('global.menu.day'), "/lejourj", class: "nav-link" %>
+        <%= link_to t('global.menu.list'), "/listemariage", class: "nav-link" %>
       </li>
       <li>
         <%# if root_path(locale: :fr) %>
@@ -29,3 +29,17 @@
     </ul>
   </div>
 </div>
+
+
+<script>
+(function () {
+    var current = location.pathname.split('/')[1];
+    if (current === "") return;
+    var menuItems = document.querySelectorAll('.nav-item a');
+    for (var i = 0, len = menuItems.length; i < len; i++) {
+        if (menuItems[i].getAttribute("href").indexOf(current) !== -1) {
+            menuItems[i].classList.add('active');
+        }
+    }
+})();
+</script>
