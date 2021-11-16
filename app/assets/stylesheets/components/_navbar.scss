@@ -1,5 +1,5 @@
 .navbar-lewagon {
-  height: 100px;
+  height: 70px;
   justify-content: right;
   background: transparent;
   font-family: futura-pt-condensed,sans-serif;
@@ -10,7 +10,7 @@
     font-size: 18px;
     margin: 30px;
     @include from-medium-low {
-      font-size: 25px;
+      font-size: 22px;
     }
   }
   a:hover {
