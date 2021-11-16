@@ -9,8 +9,10 @@
 
 .form {
     width: 100%;
+    margin-bottom: 100px;
    @include from-medium-low {
     width: 60%;
+    margin-bottom: 0px;
   }
 }
 
@@ -64,8 +66,14 @@ body {
   }
   .olivetree {
     margin-right: 0px;
+    p {
+      margin-top: 20px;
+    }
     @include from-medium-low {
       margin-right: 60px;
+          p {
+      margin-top: 0px;
+    }
     }
   }
   @include from-medium-low {
@@ -110,14 +118,14 @@ body {
   grid-template-rowa: .2fr 1fr;
   font-size: 18px;
   width: 100%;
-  p:first-of-type {
+  p {
   text-align: center;
   }
   @include from-medium {
     display: grid;
     grid-template-columns: .2fr 1fr;
     font-size: 16px;
-    p:first-of-type {
+    p {
       text-align: inherit;
     }
   }
