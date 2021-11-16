@@ -24,7 +24,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height: 33vh;
     text-align: center;
 }
 
@@ -32,7 +32,7 @@ body {
   min-height: 575px;
   margin: 0 30px;
   padding: 30px 60px;
-  border: 2px solid black !important;
+  border: 1px solid black !important;
   @include from-medium-low {
     margin: 0 80px;
   }
@@ -56,10 +56,11 @@ body {
   }
   img {
     width:100%;
+    object-fit: cover;
   }
   .olive {
-    height: 486px;
-    border-bottom: 2px solid black;
+    height: 484px;
+    border-bottom: 1px solid black;
   }
   .olivetree {
     margin-right: 0px;
@@ -90,8 +91,11 @@ body {
   }
 }
 
-.homepage {
-  border-bottom: 1px solid black;
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
 }
 
 .info {
@@ -102,19 +106,20 @@ body {
 }
 
 .event {
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-  align-items: center;
+  display: grid;
+  grid-template-rowa: .2fr 1fr;
   font-size: 18px;
   width: 100%;
   p:first-of-type {
-  width: 200px;
+  text-align: center;
   }
   @include from-medium {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: .2fr 1fr;
     font-size: 16px;
+    p:first-of-type {
+      text-align: inherit;
+    }
   }
 }
 
