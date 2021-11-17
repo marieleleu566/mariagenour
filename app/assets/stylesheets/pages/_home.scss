@@ -80,11 +80,18 @@ body {
       margin-right: 60px;
           p {
       margin-top: 5px;
-    }
+      }
     }
   }
   @include from-medium-low {
     width: 40%
+  }
+}
+
+.right {
+  margin-right: 0px;
+  @include from-medium-low {
+      margin-right: 60px;
   }
 }
 
