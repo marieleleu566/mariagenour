@@ -33,7 +33,7 @@ body {
 .border {
   min-height: 575px;
   margin: 0 10px;
-  padding: 20px;
+  padding: 12px;
   border: 1px solid black !important;
   @include from-medium-low {
     margin: 0 80px;
