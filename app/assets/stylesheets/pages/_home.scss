@@ -9,7 +9,7 @@
 
 .form {
     width: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
    @include from-medium-low {
     width: 60%;
     margin-bottom: 0px;
@@ -32,11 +32,12 @@ body {
 
 .border {
   min-height: 575px;
-  margin: 0 30px;
-  padding: 30px 60px;
+  margin: 0 10px;
+  padding: 20px;
   border: 1px solid black !important;
   @include from-medium-low {
     margin: 0 80px;
+    padding: 30px 60px;
   }
 }
 
@@ -62,7 +63,12 @@ body {
   }
   .olive {
     height: 484px;
-    border-bottom: 1px solid black;
+    padding: 0px 10px;
+    border-bottom: 0px solid black;
+    @include from-medium-low {
+      border-bottom: 1px solid black;
+      padding: 0px;
+    }
   }
   .olivetree {
     margin-right: 0px;
