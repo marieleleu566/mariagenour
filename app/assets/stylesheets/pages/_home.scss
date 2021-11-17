@@ -72,12 +72,10 @@ body {
     }
   }
   .olivetree {
-    margin-right: 0px;
     p {
       margin-top: 20px;
     }
     @include from-medium-low {
-      margin-right: 40px;
           p {
       margin-top: 3px;
       }
