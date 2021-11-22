@@ -264,6 +264,7 @@ label {
 }
 
 .date-mobile {
+  font-size: 17px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -275,6 +276,7 @@ label {
 .date-laptop {
   display: none;
   @include from-medium {
+    width: 100%;
    p:first-of-type {
       margin-left: 25px;
     }
