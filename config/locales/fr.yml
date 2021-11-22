@@ -41,7 +41,8 @@ fr:
       hotel2: "Mercure Poitiers, site du Futuroscope"
       hotel3: "Ibis, site du Futuroscope"
     theday:
-      parking: "Le stationnement sera fourni."
+      follow: "Suivez les directions sur Google Maps,"
+      parking: "le stationnement sera fourni."
       taxi_html: "Les services de taxi à Poitiers :<br> Radio Taxis +33 5 49 88 12 34<br>Taxi Grand Poitiers +33 6 03 61 25 85"
       home_html: "Nous aurons des vans vers les hôtels du futuroscope <br><br> Si vous êtes venu en voiture, vous pouvez le récupérer le dimanche après le brunch."
       venue: "Comment se rendre sur place ?"

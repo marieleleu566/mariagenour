@@ -247,23 +247,15 @@ body {
     }
 }
 
+
+
 .time {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 500;
   margin: 15px 0px 0px 0px;
   text-align: center;
   @include from-medium {
-    text-align: inherit;
-  }
-}
-
-.time-date {
-  font-size: 23px;
-  font-weight: 500;
-  margin: 15px 0px 0px 0px;
-  @include from-medium {
     font-size: 25px;
-    margin-left: 174px;
   }
 }
 
@@ -271,7 +263,29 @@ label {
   font-size: 12px;
 }
 
+.date-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include from-medium {
+    display: none;
+  }
+}
 
+.date-laptop {
+  display: none;
+  @include from-medium {
+   p:first-of-type {
+      margin-left: 25px;
+    }
+    display: grid;
+    grid-template-columns: .2fr 1fr;
+    font-size: 16px;
+    p {
+      text-align: inherit;
+    }
+  }
+}
 
 .dress {
   font-size: 16px !important;

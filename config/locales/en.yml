@@ -71,7 +71,8 @@ en:
       hotel2: "Mercure Poitiers, site du Futuroscope"
       hotel3: "Ibis, site du Futuroscope"
     theday:
-      parking: "Parking will be provided."
+      follow: "Follow directions on Google Maps,"
+      parking: "parking will be provided."
       taxi_html: "Taxi services in Poitiers include:<br> Radio Taxis +33 5 49 88 12 34<br>Taxi Grand Poitiers +33 6 03 61 25 85 <br><br> Please note: Taxis are in Poitiers and will take ~30mns+ to get to the hotels/venue."
       home_html: "To make sure all guests get home safely, we will provide late night van services to the closest hotels. <br><br> There is parking at the venue. If you go home by taxi or by late night van service, you can pick up your car Sunday after the brunch."
       venue: "How to get to the venue?"
