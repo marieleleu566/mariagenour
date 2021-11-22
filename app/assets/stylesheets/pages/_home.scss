@@ -63,7 +63,7 @@ body {
     object-fit: contain;
   }
   .olive {
-    height: 540px;
+    height: 520px;
     padding: 0px 10px;
     @include from-medium-low {
       padding: 0px;
@@ -92,11 +92,11 @@ body {
 }
 
 .adresse {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .home {
-  margin-top: 100px !important;
+  margin-top: 50px !important;
 }
 
 .text {
