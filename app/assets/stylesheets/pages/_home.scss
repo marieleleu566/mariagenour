@@ -155,7 +155,7 @@ body {
   }
   @include from-medium {
     display: grid;
-    grid-template-columns: .2fr 1fr;
+    grid-template-columns: .35fr 1fr;
     font-size: 16px;
     p {
       text-align: inherit;
@@ -174,7 +174,7 @@ body {
   }
   @include from-medium {
     display: grid;
-    grid-template-columns: .2fr 1fr;
+    grid-template-columns: .3fr 1fr;
     font-size: 16px;
     p {
       text-align: inherit;
@@ -219,7 +219,7 @@ body {
       margin-left: 25px;
     }
     display: grid;
-    grid-template-columns: .2fr 1fr;
+    grid-template-columns: .35fr 1fr;
     font-size: 16px;
     p {
       text-align: inherit;
@@ -267,7 +267,8 @@ label {
   font-size: 17px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  width: 100%;
   @include from-medium {
     display: none;
   }
@@ -281,7 +282,7 @@ label {
       margin-left: 25px;
     }
     display: grid;
-    grid-template-columns: .2fr 1fr;
+    grid-template-columns: .35fr 1fr;
     font-size: 16px;
     p {
       text-align: inherit;
