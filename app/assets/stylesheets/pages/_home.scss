@@ -31,10 +31,21 @@ body {
     text-align: center;
 }
 
-.border {
+.border-rsvp {
   min-height: 564px;
   margin: 0 10px;
   padding: 12px;
+  border: 1px solid black !important;
+  @include from-medium-low {
+    margin: 20px 40px 40px 40px;
+    padding: 30px 60px;
+  }
+}
+
+.border {
+  min-height: 564px;
+  margin: 0 10px;
+  padding: 30px;
   border: 1px solid black !important;
   @include from-medium-low {
     margin: 20px 40px 40px 40px;
@@ -93,6 +104,11 @@ body {
 
 .adresse {
   margin-bottom: 0px;
+  font-size: 19px;
+  text-align: center;
+  @include from-medium {
+    font-size: 18px;
+  }
 }
 
 .home {
@@ -127,9 +143,10 @@ body {
   align-items: center;
 }
 
-.event {
-  display: grid;
-  grid-template-rowa: .2fr 1fr;
+.event-home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 18px;
   width: 100%;
   p {
@@ -145,9 +162,50 @@ body {
   }
 }
 
-.event-left {
+.event-home-special {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  width: 100%;
+  p {
+  text-align: center;
+  }
+  @include from-medium {
+    display: grid;
+    grid-template-columns: .2fr 1fr;
+    font-size: 16px;
+    p {
+      text-align: inherit;
+    }
+  }
+}
+
+.event {
   display: grid;
-  grid-template-rowa: .2fr 1fr;
+  grid-template-rows: .2fr 1fr;
+  font-size: 18px;
+  width: 100%;
+  margin: 30px;
+  p {
+  text-align: center;
+  }
+  @include from-medium {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: .2fr 1fr;
+    font-size: 16px;
+    p {
+      text-align: inherit;
+    }
+  }
+}
+
+
+.event-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 18px;
   width: 100%;
   p:first-of-type {
@@ -213,10 +271,6 @@ label {
 }
 
 
-.adresse {
-  font-size: 18px;
-  text-align: center;
-}
 
 .dress {
   font-size: 16px !important;

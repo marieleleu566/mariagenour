@@ -4,7 +4,7 @@
     <%= image_tag 'morocoo.png', style:'height:510px; object-fit:contain; padding: 10px;' %>
   </div>
   <div class="form">
-    <div class="border">
+    <div class="border-rsvp">
       <%= simple_form_for @rsvp do |f| %>
         <% if flash[:error].present? %>
           <p> Please correctly complete the fields below</p>

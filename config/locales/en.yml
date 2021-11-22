@@ -41,7 +41,7 @@ en:
       marriage: "Nour & Nicolas"
       date: "16th & 17th of July 2022"
     info:
-      address: "The Venue: Château des Roches, 86380, Saint-Martin-La-Pallu"
+      address: "Venue: Château des Roches, 86380, Saint-Martin-La-Pallu"
       date: "Saturday, 16th of July 2022"
       date1: "Sunday, 17th of July 2022"
       welcome: 'Welcome Drink'
@@ -54,7 +54,7 @@ en:
       eight: "8pm"
       twelve: "12pm"
       brunch: "Brunch"
-      code: "Cocktail / Suits (no ties!)"
+      code: "Cocktails / Suits (No ties! - Pas de cravate!)"
       dress: "Casual"
     events:
       header: "All events will take place at Château des Roches."
