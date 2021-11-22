@@ -5,32 +5,38 @@
         <div class="adresse">
           <p><%= t('global.info.address') %></p>
         </div>
-        <div class="time">
-          <p style='margin-left: 90px;'><%= t('global.info.date') %></p>
+        <div class="time-date">
+          <p><%= t('global.info.date') %></p>
         </div>
         <div class="event">
+          <p><%= t('global.info.four') %></p>
+          <p><%= t('global.info.welcome') %></p>
+        </div>
+        <div class="event-left">
           <p><%= t('global.info.five') %></p>
           <p><%= t('global.info.ceremony') %></p>
         </div>
-        <div class="event">
+        <div class="event-left">
           <p><%= t('global.info.six') %></p>
           <p><%= t('global.info.cocktail') %></p>
         </div>
-        <div class="event">
+        <div class="event-left">
           <p><%= t('global.info.eight') %></p>
           <p><%= t('global.info.dance') %></p>
         </div>
-        <div class="event">
+        <br>
+        <div class="event-left">
           <p></p>
-          <p><i>Dress Code:</i> <%= t('global.info.code') %></p>
+          <p style='font-weight:500;'><i>Dress Code:</i> <%= t('global.info.code') %></p>
         </div>
-        <div class="time">
-          <p style='margin-left: 90px;'><%= t('global.info.date1') %></p>
+        <div class="time-date">
+          <p><%= t('global.info.date1') %></p>
         </div>
-        <div class="event">
+        <div class="event-left">
           <p><%= t('global.info.twelve') %></p>
           <p><%= t('global.info.brunch') %></p>
         </div>
+        <br>
         <div class="event">
           <p></p>
           <p><i>Dress Code:</i> <%= t('global.info.dress') %></p>
@@ -41,7 +47,7 @@
   <div class="photo">
     <div class="olivetree right">
       <p><%= link_to t('global.wedding.marriage'), '/' %></p>
-      <%= image_tag 'oliveoil.png', class:'olive' %>
+      <%= image_tag 'door.png', class:'olive' %>
     </div>
   </div>
 </div>

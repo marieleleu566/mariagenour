@@ -41,12 +41,14 @@ en:
       marriage: "Nour & Nicolas"
       date: "16th & 17th of July 2022"
     info:
-      address: "Château des Roches, 86380 - Saint-Martin-La-Pallu"
+      address: "The Venue: Château des Roches, 86380, Saint-Martin-La-Pallu"
       date: "Saturday, 16th of July 2022"
       date1: "Sunday, 17th of July 2022"
+      welcome: 'Welcome Drink'
       ceremony: "Non-Religious Ceremony"
       cocktail: "Cocktail / Apéro"
       dance: "Dinner & Dancing"
+      four: "4:30pm"
       five: "5pm"
       six: "6pm"
       eight: "8pm"
@@ -70,7 +72,7 @@ en:
       hotel3: "Ibis, site du Futuroscope"
     theday:
       parking: "Parking will be provided."
-      taxi_html: "Taxi services in Poitiers include:<br> Radio Taxis +33 5 49 88 12 34<br>Taxi Grand Poitiers +33 6 03 61 25 85"
-      home_html: "To make sure all guests get home safely, we will provide late night van services to the closest hotels. <br><br> If you have come by car, you can pick it up on Sunday after the brunch."
+      taxi_html: "Taxi services in Poitiers include:<br> Radio Taxis +33 5 49 88 12 34<br>Taxi Grand Poitiers +33 6 03 61 25 85 <br><br> Please note: Taxis are in Poitiers and will take ~30mns+ to get to the hotels/venue."
+      home_html: "To make sure all guests get home safely, we will provide late night van services to the closest hotels. <br><br> There is parking at the venue. If you go home by taxi or by late night van service, you can pick up your car Sunday after the brunch."
       venue: "How to get to the venue?"
       wedding: "The Wedding Day"
