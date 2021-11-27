@@ -41,7 +41,7 @@ en:
       marriage: "Nour & Nicolas"
       date: "16th & 17th of July 2022"
     info:
-      address: "Venue: Château des Roches, 86380, Saint-Martin-La-Pallu"
+      address: "Location: Château des Roches, 86380, Saint-Martin-La-Pallu"
       date: "Saturday, 16th of July 2022"
       date1: "Sunday, 17th of July 2022"
       welcome: 'Welcome Drink'
@@ -69,11 +69,12 @@ en:
       Recommend: "Recommended Hotels in the area:"
       hotel1: "Château du Clos de la Ribaudière"
       hotel2: "Mercure Poitiers, site du Futuroscope"
-      hotel3: "Ibis, site du Futuroscope"
+      hotel3: "Novotel Poitiers, site du Futuroscope"
+      hotel4: "Ibis, site du Futuroscope"
     theday:
-      follow: "Follow directions on Google Maps,"
-      parking: "parking will be provided."
-      taxi_html: "Taxi services in Poitiers include:<br> Radio Taxis +33 5 49 88 12 34<br>Taxi Grand Poitiers +33 6 03 61 25 85 <br><br> Please note: Taxis are in Poitiers and will take ~30mns+ to get to the hotels/venue."
-      home_html: "To make sure all guests get home safely, we will provide late night van services to the closest hotels. <br><br> There is parking at the venue. If you go home by taxi or by late night van service, you can pick up your car Sunday after the brunch."
-      venue: "How to get to the venue?"
+      follow: "Follow directions to Château des Roches, 86380, Saint-Martin-La-Pallu."
+      parking: "Parking will be provided."
+      taxi_html: "Taxi services in Poitiers include:<br> Radio Taxis +33 5 49 88 12 34<br>Taxi Grand Poitiers +33 6 03 61 25 85 <br><br> Please note: Taxis are in Poitiers and will take ~30mns+ to get to the hotels/house."
+      home_html: "To make sure all guests get home safely, we will provide late night van services to the closest hotels. <br><br> There is parking at the house. If you go home by taxi or by late night van service, you can pick up your car Sunday after the brunch."
+      venue: "How to get to Château des Roches?"
       wedding: "The Wedding Day"
